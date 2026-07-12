@@ -20,11 +20,15 @@ body {
 .month {
     color: white;
     padding: 10px;
-    background-color: orangered;
+    background-color: #bab9cf;
     font-size: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-weight: bolder;
+}
+
+.solar{
+    background-color: orangered;
 }
 
 .whichDay,
@@ -40,4 +44,18 @@ body {
 
 .year {
     margin-bottom: 20px
+}
+
+.btn {
+    border-radius: 10px;
+    width: auto;
+    height: 80px;
+    background-color: #bab9cf;
+    border: none;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 200px;
 }
