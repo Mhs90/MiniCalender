@@ -164,7 +164,7 @@ const btnClickHandler = () => {
         yearEl.textContent = solarYear
         changeBtnEl.style.backgroundColor = "orangered";
         monthEl.style.backgroundColor = "orangered";
-        changeBtnEl.textContent = "شمسی"
+        changeBtnEl.textContent = "میلادی"
         isSolar = true;
     } else {
         monthSwitch()
